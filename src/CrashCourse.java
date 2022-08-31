@@ -32,6 +32,10 @@ public class CrashCourse {
         names.add("Leo");
         names.add("Dona");
 
+        for (String firstName : names) {
+            System.out.println(firstName);
+        }
+
         for (int i = 0; i < names.size(); i++){
             System.out.println(names.get(i));
         }
@@ -41,6 +45,17 @@ public class CrashCourse {
         map.put("friend","Tomas");
 
                 System.out.println(map.get("me"));
+
+        class Person{
+            String name;
+            Double height;
+            int age;
+        }  
+
+        Person mateus = new Person();
+        mateus.name = "Mateus";
+        mateus.height = 185.0;
+        mateus.age = 24;
 
     }
 }
